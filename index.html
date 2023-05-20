@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soumya's Personal Site</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="index.js"></script>
+  <script src="https://kit.fontawesome.com/18e8bebb2d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="headder">
+    <div class="container">
+      <nav>
+        <img src="image/logo-transparent-png.png" alt="" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#headder">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#work">Potfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p><span class="auto-input"></span></p>
+        <h1>Hi, I'm <span>Soumya</span> <br />
+          From India
+        </h1>
+      </div>
+      <div class="img">
+        <img src="image/fun-3d-cartoon-teenage-boy-removebg-preview.png" alt="">
+      </div>
+      <div class="animated-area">
+        <ul class="box-area">
+          <li class="boxes"></li>
+          <li class="boxes"></li>
+          <li class="boxes"></li>
+          <li class="boxes"></li>
+          <li class="boxes"></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------About--------------------------------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="image/fun-3d-cartoon-about-removebg-.png" alt="" />
+        </div>
+
+        <div class="about-col-2">
+
+          <h1 class="sub-title">About me</h1>
+          <p>
+            Welcome to my portfolio! I am Soumya Ranjan Behera, a highly skilled and passionate Web Developer and UI/UX
+            Designer with a strong focus on creating exceptional digital experiences. With a deep understanding of both
+            the technical and creative aspects of web development, I strive to bring together aesthetics and
+            functionality to deliver visually stunning and user-friendly websites. <br><br>
+            I possess a solid foundation in various programming languages, including HTML, CSS, JavaScript, and Python.
+            My proficiency in front-end development allows me to craft responsive and interactive interfaces that
+            captivate users and enhance their overall browsing experience. I pay meticulous attention to detail,
+            ensuring that my code is clean, well-structured, and optimized for performance across different devices and
+            browsers. <br><br>
+            Moreover, I am well-versed in the latest frameworks and libraries such as React.js and Vue.js. These
+            powerful tools enable me to build dynamic and scalable web applications that are intuitive, efficient, and
+            easy to maintain. I am also experienced in working with back-end technologies, such as Node.js and Express,
+            to develop robust server-side functionalities and RESTful APIs.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link " onclick="opentab('skills')">Skill</p>
+            <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-Contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>
+                <ul>
+                  <li>UI/UX design focuses on creating user-centered, intuitive interfaces that prioritize navigation,
+                    consistency, and visual hierarchy.</li>
+                  <li> Effective UI/UX design considers responsiveness, accessibility, and usability while incorporating
+                    minimalism, feedback, and collaboration for optimal user experiences.</li>
+                </ul>
+              </li>
+              <li><span>Web Devlopment</span><br>
+                <ul>
+                  <li>Responsive Design: Create websites that adapt seamlessly to different screen sizes and devices,
+                    ensuring a consistent and optimal user experience.</li>
+                  <li>Analytics and Tracking: Integrate web analytics tools to gather insights on user behavior, traffic
+                    sources, and conversion metrics, allowing data-driven improvements to the website over time.</li>
+                </ul>
+              </li>
+              <li><span>Application Devlopment</span><br>
+                <ul>
+                  <li>User-Centric Approach: Design and develop applications with a deep understanding of the target
+                    users, their needs, and preferences, ensuring a seamless and satisfying user experience.</li>
+                  <li>Security and Data Privacy: Incorporate robust security measures to protect user data and ensure
+                    compliance with relevant data privacy regulations.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-Contents" id="exprience">
+            <ul>
+              <li><span>2016</span><br>Designing web/app interfaces</li>
+              <li><span>2016</span><br>web app Devlopment</li>
+              <li><span>2014</span><br>Building Andoried/ios apps</li>
+            </ul>
+          </div>
+          <div class="tab-Contents" id="education">
+            <ul>
+              <li><span>Bachlor's in Technology</span><br>
+                <ul>
+                  <li>2016 - 2020</li>
+                  <li>Biju Patnaik Unversity of Technology</li>
+                </ul>
+              </li>
+              <li><span>J Spider</span><br>web app Devlopment</li>
+              <li><span>App Devlopment</span><br>Building Andoried/ios apps</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------------------------Service-------------------------------------->
+
+  <!-----------------------------------------------------Services--------------------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <section class="articles">
+        <article>
+          <div class="article-wrapper">
+            <figure>
+              <img src="image/UI-UX_desgine.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>UI/UX Desginer</h2>
+              <p>
+                Our UI/UX design service aims to create exceptional digital experiences by seamlessly blending the
+                disciplines of user interface (UI) and user experience (UX) design. With a deep understanding of user
+                behaviors, needs, and expectations, our team meticulously crafts visually appealing interfaces that are
+                intuitive, engaging, and functional. 
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+
+          <div class="article-wrapper">
+            <figure>
+              <img src="image/Webdev-removebg-preview.png" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>Web Development</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article>
+
+          <div class="article-wrapper">
+            <figure>
+              <img src="image/ApplicationDesgine.jpg" alt="" />
+            </figure>
+            <div class="article-body">
+              <h2>App Devlopment</h2>
+              <p>
+                Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet, congue
+                bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet egestas.
+              </p>
+              <a href="#" class="read-more">
+                Read more <span class="sr-only">about this is some title</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+    </div>
+  </div>
+  <!----------------------------Work----------------------------->
+  <div id="work">
+    <div class="container">
+      <h1 class="sub-title">Potfolio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="image/pinakee_digital.png" alt="">
+          <div class="layer">
+            <h3>A Software Company Website</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="image/Pharma_Company.png" alt="">
+          <div class="layer">
+            <h3>Pharma Company WebSite</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="image/Realestate.png" alt="">
+          <div class="layer">
+            <h3>Real-estate website</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="image/foodwebsite.png" alt="">
+          <div class="layer">
+            <h3>Ecommerse Food Website</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="image/LaunderyManagement_dash.png" alt="">
+          <div class="layer">
+            <h3>Adim Dashbord For Laundery Management</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="image/Potfolio.png" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you to the tallentedpeople arround the world.
+              Download it from play store.
+            </p>
+            <a href=""><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More..</a>
+    </div>
+  </div>
+  <!------------------------contact---------------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Us</h1>
+          <p><i class="fa-solid fa-envelope"></i>soumyaranjan048@gmail.com</p>
+          <div class="social-icons">
+            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href=""></a>
+        </div>
+        <div class="contact-right">
+          <div class="from-area">
+            <form action="SavePerson" method="get">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <input type="tel" name="phone" placeholder="Your 10 digit Number" required>
+              <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------------------fotter----------------------------------->
+  <div class="footer">
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+        <div class="wave" id="wave5"></div>
+      </div>
+      <ul class="social-icon">
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">Potfolio</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <p>@2023 Soumya | All rights Reserved</p>
+    </footer>
+  </div>
+
+
+  <!-------------------------------------------------------------------------------->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+    function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+  <script>
+    let typed = new Typed('.auto-input', {
+      strings: ['UI/UX Desginer', 'Web Devloper', 'Application Desginer'],
+      typeSpeed: 100,
+      backSpeed: 200,
+      backDelay: 200,
+      loop: true,
+
+    })
+  </script>
+</body>
+
+</html>
